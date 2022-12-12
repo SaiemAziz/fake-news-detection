@@ -27,7 +27,9 @@ const Home = () => {
                 </div>)
             }
             </div>
-            <Link to='/blog' className="btn-link btn btn-info text-2xl w-fit mx-auto">See All</Link>
+            <div className='w-fit mx-auto'>
+                <Link to='/blog' className="btn-link btn mb-10 text-2xl">See All</Link>
+            </div>
         </div>
     );
 };
